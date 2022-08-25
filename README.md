@@ -63,7 +63,7 @@ root@saturn:/etc/bind# cat example.com
 @   IN  A   192.168.0.115
 husnaHP   IN   A   192.168.0.115
 root@saturn:/etc/bind# systemctl start named
-root@saturn:/etc/bind# systemctl status named
+root@saturn:/etc/bind# systemctl status name
 ● named.service - BIND Domain Name Server
      Loaded: loaded (/lib/systemd/system/named.service; disabled; vendor preset>
      Active: active (running) since Wed 2022-08-24 15:55:21 UTC; 7s ago
