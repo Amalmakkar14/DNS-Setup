@@ -51,7 +51,7 @@ zone "example.com" {
         file "/etc/bind/example.com";
 };
 root@saturn:/etc/bind# vi example.com
-root@saturn:/etc/bind# cat example.com
+root@saturn:/etc/bind# cat example.co
 @   IN  SOA example.com. root.example.com. (
                   2     ; Serial
              604800     ; Refresh
